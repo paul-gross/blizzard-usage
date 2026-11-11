@@ -1,0 +1,3 @@
+name = "blizzard-usage"
+description = "How to use Blizzard — read when connecting to a fleet or operating its work."
+requires = ["winter-context", "winter-canon"]
