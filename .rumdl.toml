@@ -1,2 +1,10 @@
-[global]
-disable = ["MD013", "MD060"]
+[MD004]
+style = "dash"
+
+[MD046]
+style = "fenced"
+
+[MD013]
+line-length = 120
+tables = false
+code-blocks = false

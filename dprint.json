@@ -2,7 +2,11 @@
   "includes": ["**/*.md"],
   "excludes": [".git/**"],
   "markdown": {
-    "lineWidth": 120
+    "textWrap": "always",
+    "lineWidth": 120,
+    "emphasisKind": "asterisks",
+    "strongKind": "asterisks",
+    "unorderedListKind": "dashes"
   },
-  "plugins": ["https://plugins.dprint.dev/markdown-0.21.1.wasm"]
+  "plugins": ["https://plugins.dprint.dev/markdown-0.22.1.wasm"]
 }
