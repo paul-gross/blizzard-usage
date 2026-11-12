@@ -32,6 +32,7 @@ evidence outside the usage corpus.
 
 ## Delivery and adoption
 
-Use scoped Conventional Commits and a PR to `master`. Changes publish through Git, not an application build or release.
-Review the adopted revision separately from the editing worktree; do not assume updating a worktree refreshes the
-workspace's standalone clone or an already-running session. [README.md](./README.md) describes adoption.
+Use scoped Conventional Commits and push directly to `master`; this repo has no CI, so a PR would gate nothing. Changes
+publish through Git, not an application build or release. Review the adopted revision separately from the editing
+worktree; do not assume updating a worktree refreshes the workspace's standalone clone or an already-running session.
+[README.md](./README.md) describes adoption.
